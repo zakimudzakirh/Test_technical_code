@@ -25,7 +25,7 @@ app.post('/generate-segitiga', (req, res) => {
         for(let j=i; j<=i; j++){
             result += angka[j];
             for(let z=0; z<=i; z++) {
-                result += "0";c
+                result += "0";
             }
         }
         result += result.length === 0? "" : "<br/>";
